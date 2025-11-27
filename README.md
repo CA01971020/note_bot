@@ -4,7 +4,7 @@ note Botとは、CLIからLINEにメッセージを送信できるLINE Botであ
 Pythonの実行環境があれば、本リポジトリのnotebot.pyに必要な値を設定することで使用することができる。  
 noteBotは、Pythonファイルの実行によって起動することができる。  
 
-別途LINE Developerに登録する必要がある。
+別途LINE Developerに登録して、LINE Messaging API用の公式アカウント（noteBot用アカウント）を作成する必要がある。
 
 ### 使用技術
 
@@ -39,9 +39,12 @@ CLIならどれでも大丈夫です。
 
 ### ④ファイルの実行（noteBot起動）
 
-下記コマンドで実行します。
+notebot.pyが置かれた任意のディレクトリに移動し、下記のコマンドを実行することで起動します。
 
 ```
-Python noteBot.py
+python notebot.py
 ```
 
+## 便利な利用方法
+
+CLI起動時に毎回コマンドを打つのは大変ですが、アイコンのクリックによって簡単に起動することもできます。

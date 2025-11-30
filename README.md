@@ -43,6 +43,7 @@ CLIならどれでも大丈夫です。
 
 notebot.pyが置かれた任意のディレクトリに移動し、下記のコマンドを実行することで起動します。
 
+Windows
 ```
 python notebot.py
 ```
